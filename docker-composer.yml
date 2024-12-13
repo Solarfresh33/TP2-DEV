@@ -1,0 +1,14 @@
+version: "1"
+
+services:
+  calculatrice:
+    image: calculatrice
+    build:
+      dockerfile : Dockerfile
+    ports:
+      - "13337:13337"
+    container_name: calculatrice-container
+    environment:
+      - CALC_PORT=13337
+    stdin_open: true
+    tty: true
