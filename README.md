@@ -1,4 +1,4 @@
-Pour lancer la calculatrice :
+# Pour lancer la calculatrice :
 - cloner le repo
 - se rendre dans le dossier
 - exécuter la commande **docker compose -f docker-composer.yml up**
